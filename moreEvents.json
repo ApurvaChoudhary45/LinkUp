@@ -1,0 +1,354 @@
+[
+    {
+        "id": 7,
+        "name": "Foodies Street Market",
+        "image": "https://source.unsplash.com/random/400x300?event,6",
+        "date": "2025-11-03",
+        "time": "09:30",
+        "publisher": "Delhi Foodies"
+    },
+    {
+        "id": 8,
+        "name": "Indie Film Screening",
+        "image": "https://source.unsplash.com/random/400x300?event,7",
+        "date": "2025-11-03",
+        "time": "17:00",
+        "publisher": "Cinephiles Society"
+    },
+    {
+        "id": 9,
+        "name": "Coding Bootcamp Demo Day",
+        "image": "https://source.unsplash.com/random/400x300?event,8",
+        "date": "2025-12-01",
+        "time": "19:00",
+        "publisher": "Code Academy"
+    },
+    {
+        "id": 10,
+        "name": "Art & Craft Fair",
+        "image": "https://source.unsplash.com/random/400x300?event,9",
+        "date": "2025-10-09",
+        "time": "16:30",
+        "publisher": "Creative Hands Group"
+    },
+    {
+        "id": 11,
+        "name": "Women in Tech Conference",
+        "image": "https://source.unsplash.com/random/400x300?event,10",
+        "date": "2025-10-26",
+        "time": "12:00",
+        "publisher": "Women Innovators"
+    },
+    {
+        "id": 12,
+        "name": "Outdoor Adventure Trek",
+        "image": "https://source.unsplash.com/random/400x300?event,11",
+        "date": "2025-11-02",
+        "time": "19:00",
+        "publisher": "Adventure Seekers"
+    },
+    {
+        "id": 13,
+        "name": "Music Production Workshop",
+        "image": "https://source.unsplash.com/random/400x300?event,12",
+        "date": "2025-10-31",
+        "time": "19:30",
+        "publisher": "Sound Masters"
+    },
+    {
+        "id": 14,
+        "name": "Stand-Up Comedy Night",
+        "image": "https://source.unsplash.com/random/400x300?event,13",
+        "date": "2025-11-04",
+        "time": "09:30",
+        "publisher": "Comedy Central India"
+    },
+    {
+        "id": 15,
+        "name": "Fitness Challenge 2025",
+        "image": "https://source.unsplash.com/random/400x300?event,14",
+        "date": "2025-12-04",
+        "time": "15:00",
+        "publisher": "FitLife Crew"
+    },
+    {
+        "id": 16,
+        "name": "Startup Pitch Night",
+        "image": "https://source.unsplash.com/random/400x300?event,15",
+        "date": "2025-10-25",
+        "time": "08:30",
+        "publisher": "Pitch Masters"
+    },
+    {
+        "id": 17,
+        "name": "Gaming Hackathon",
+        "image": "https://source.unsplash.com/random/400x300?event,16",
+        "date": "2025-11-03",
+        "time": "12:30",
+        "publisher": "GameDev Society"
+    },
+    {
+        "id": 18,
+        "name": "Creative Writing Workshop",
+        "image": "https://source.unsplash.com/random/400x300?event,17",
+        "date": "2025-10-08",
+        "time": "08:30",
+        "publisher": "Writers Circle"
+    },
+    {
+        "id": 19,
+        "name": "Cooking Masterclass",
+        "image": "https://source.unsplash.com/random/400x300?event,18",
+        "date": "2025-10-31",
+        "time": "14:30",
+        "publisher": "Culinary School"
+    },
+    {
+        "id": 20,
+        "name": "Charity Marathon",
+        "image": "https://source.unsplash.com/random/400x300?event,19",
+        "date": "2025-11-15",
+        "time": "20:00",
+        "publisher": "Run for Cause"
+    },
+    {
+        "id": 21,
+        "name": "Cultural Dance Fest",
+        "image": "https://source.unsplash.com/random/400x300?event,20",
+        "date": "2025-10-26",
+        "time": "13:30",
+        "publisher": "Dance Collective"
+    },
+    {
+        "id": 22,
+        "name": "Book Lovers Meetup",
+        "image": "https://source.unsplash.com/random/400x300?event,21",
+        "date": "2025-10-21",
+        "time": "19:00",
+        "publisher": "Readers Club"
+    },
+    {
+        "id": 23,
+        "name": "Product Design Conference",
+        "image": "https://source.unsplash.com/random/400x300?event,22",
+        "date": "2025-11-27",
+        "time": "10:00",
+        "publisher": "Design Innovators"
+    },
+    {
+        "id": 24,
+        "name": "Eco Living Workshop",
+        "image": "https://source.unsplash.com/random/400x300?event,23",
+        "date": "2025-11-11",
+        "time": "20:00",
+        "publisher": "Eco Warriors"
+    },
+    {
+        "id": 25,
+        "name": "Pet Adoption Drive",
+        "image": "https://source.unsplash.com/random/400x300?event,24",
+        "date": "2025-12-04",
+        "time": "06:00",
+        "publisher": "Animal Welfare Trust"
+    },
+    {
+        "id": 26,
+        "name": "Robotics Expo",
+        "image": "https://source.unsplash.com/random/400x300?event,25",
+        "date": "2025-10-07",
+        "time": "07:30",
+        "publisher": "RoboTech India"
+    },
+    {
+        "id": 27,
+        "name": "Mental Health Awareness Talk",
+        "image": "https://source.unsplash.com/random/400x300?event,26",
+        "date": "2025-12-04",
+        "time": "17:00",
+        "publisher": "Health & Wellness Foundation"
+    },
+    {
+        "id": 28,
+        "name": "UX/UI Design Sprint",
+        "image": "https://source.unsplash.com/random/400x300?event,27",
+        "date": "2025-11-29",
+        "time": "10:00",
+        "publisher": "UX/UI Guild"
+    },
+    {
+        "id": 29,
+        "name": "Digital Marketing Summit",
+        "image": "https://source.unsplash.com/random/400x300?event,28",
+        "date": "2025-11-12",
+        "time": "16:30",
+        "publisher": "Marketing Pros"
+    },
+    {
+        "id": 30,
+        "name": "Chess Championship",
+        "image": "https://source.unsplash.com/random/400x300?event,29",
+        "date": "2025-10-27",
+        "time": "20:30",
+        "publisher": "Chess Masters"
+    },
+    {
+        "id": 31,
+        "name": "Street Photography Workshop",
+        "image": "https://source.unsplash.com/random/400x300?event,30",
+        "date": "2025-11-27",
+        "time": "20:30",
+        "publisher": "Photo Walkers"
+    },
+    {
+        "id": 32,
+        "name": "Open Mic Poetry Night",
+        "image": "https://source.unsplash.com/random/400x300?event,31",
+        "date": "2025-11-13",
+        "time": "07:30",
+        "publisher": "Poetry Lounge"
+    },
+    {
+        "id": 33,
+        "name": "Language Exchange Meetup",
+        "image": "https://source.unsplash.com/random/400x300?event,32",
+        "date": "2025-10-12",
+        "time": "16:30",
+        "publisher": "Language Lovers"
+    },
+    {
+        "id": 34,
+        "name": "Startup Fundraising Workshop",
+        "image": "https://source.unsplash.com/random/400x300?event,33",
+        "date": "2025-10-24",
+        "time": "18:30",
+        "publisher": "FundHub"
+    },
+    {
+        "id": 35,
+        "name": "AI Hackathon",
+        "image": "https://source.unsplash.com/random/400x300?event,34",
+        "date": "2025-11-15",
+        "time": "09:00",
+        "publisher": "HackHub"
+    },
+    {
+        "id": 36,
+        "name": "Music Battle of Bands",
+        "image": "https://source.unsplash.com/random/400x300?event,35",
+        "date": "2025-10-28",
+        "time": "19:30",
+        "publisher": "Rock Nation"
+    },
+    {
+        "id": 37,
+        "name": "Entrepreneurship Bootcamp",
+        "image": "https://source.unsplash.com/random/400x300?event,36",
+        "date": "2025-10-26",
+        "time": "19:00",
+        "publisher": "Startup Builders"
+    },
+    {
+        "id": 38,
+        "name": "VR & AR Expo",
+        "image": "https://source.unsplash.com/random/400x300?event,37",
+        "date": "2025-11-24",
+        "time": "16:00",
+        "publisher": "XR Innovators"
+    },
+    {
+        "id": 39,
+        "name": "Global Food Festival",
+        "image": "https://source.unsplash.com/random/400x300?event,38",
+        "date": "2025-11-26",
+        "time": "08:00",
+        "publisher": "Foodies United"
+    },
+    {
+        "id": 40,
+        "name": "Wellness Retreat Weekend",
+        "image": "https://source.unsplash.com/random/400x300?event,39",
+        "date": "2025-10-21",
+        "time": "10:00",
+        "publisher": "ZenLife"
+    },
+    {
+        "id": 41,
+        "name": "Tech Job Fair",
+        "image": "https://source.unsplash.com/random/400x300?event,40",
+        "date": "2025-10-19",
+        "time": "10:00",
+        "publisher": "Career Connect"
+    },
+    {
+        "id": 42,
+        "name": "Street Art Festival",
+        "image": "https://source.unsplash.com/random/400x300?event,41",
+        "date": "2025-11-18",
+        "time": "11:30",
+        "publisher": "Street Artists Collective"
+    },
+    {
+        "id": 43,
+        "name": "Meditation & Mindfulness Workshop",
+        "image": "https://source.unsplash.com/random/400x300?event,42",
+        "date": "2025-12-03",
+        "time": "09:00",
+        "publisher": "Mindful Souls"
+    },
+    {
+        "id": 44,
+        "name": "Space Science Lecture",
+        "image": "https://source.unsplash.com/random/400x300?event,43",
+        "date": "2025-10-14",
+        "time": "07:00",
+        "publisher": "Space Enthusiasts"
+    },
+    {
+        "id": 45,
+        "name": "Climate Change Summit",
+        "image": "https://source.unsplash.com/random/400x300?event,44",
+        "date": "2025-11-26",
+        "time": "15:30",
+        "publisher": "Green Earth Society"
+    },
+    {
+        "id": 46,
+        "name": "Marathon Training Camp",
+        "image": "https://source.unsplash.com/random/400x300?event,45",
+        "date": "2025-10-10",
+        "time": "18:00",
+        "publisher": "RunStrong"
+    },
+    {
+        "id": 47,
+        "name": "Folk Music Night",
+        "image": "https://source.unsplash.com/random/400x300?event,46",
+        "date": "2025-11-19",
+        "time": "11:30",
+        "publisher": "Folk Club"
+    },
+    {
+        "id": 48,
+        "name": "Creative Startup Expo",
+        "image": "https://source.unsplash.com/random/400x300?event,47",
+        "date": "2025-11-11",
+        "time": "17:00",
+        "publisher": "Innovation Expo"
+    },
+    {
+        "id": 49,
+        "name": "Fashion Show 2025",
+        "image": "https://source.unsplash.com/random/400x300?event,48",
+        "date": "2025-10-20",
+        "time": "14:00",
+        "publisher": "Fashion Creators"
+    },
+    {
+        "id": 50,
+        "name": "Sustainability Hackathon",
+        "image": "https://source.unsplash.com/random/400x300?event,49",
+        "date": "2025-11-07",
+        "time": "20:30",
+        "publisher": "Green Coders"
+    }
+]

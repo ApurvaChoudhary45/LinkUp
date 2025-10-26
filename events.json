@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Tech Startup Networking Night",
+    "image": "https://plus.unsplash.com/premium_photo-1661963212517-830bbb7d76fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D",
+    "date": "2025-10-18",
+    "time": "18:00",
+    "publisher": "Innovate Hub",
+    "location": "Downtown Co-Working Space, City Center",
+    "eventType": "Paid",
+    "price": 499,
+    "currency": "INR",
+    "details": "Join fellow entrepreneurs, innovators, and startup enthusiasts for an exciting evening of networking and collaboration. This event provides a unique opportunity to meet founders, investors, and industry experts in a relaxed environment. Exchange ideas, explore potential partnerships, and get insights into the latest trends in the tech startup ecosystem. Light refreshments and drinks will be served, and attendees are encouraged to bring their business cards and pitch ideas in short, engaging conversations."
+  },
+  {
+    "name": "AI & Machine Learning Summit",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWl8ZW58MHx8MHx8fDA%3D",
+    "date": "2025-10-19",
+    "time": "10:00",
+    "publisher": "AI Connect",
+    "location": "Grand Conference Hall, Tech Park",
+    "eventType": "Paid",
+    "price": 899,
+    "currency": "INR",
+    "details": "Dive deep into the world of artificial intelligence and machine learning at this comprehensive summit. Hear from leading AI experts and data scientists as they share insights on cutting-edge research, real-world applications, and emerging trends. Participate in hands-on workshops covering machine learning tools, data analysis techniques, and model deployment strategies. The summit also offers ample networking opportunities for students, professionals, and AI enthusiasts looking to collaborate or share ideas in a vibrant, knowledge-driven environment."
+  },
+  {
+    "name": "Weekend Photography Walk",
+    "image": "https://images.unsplash.com/photo-1710071091794-903b326fccfe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2Vla2VuZCUyMHBob3RvZ3JwYWh5fGVufDB8fDB8fHww",
+    "date": "2025-10-20",
+    "time": "07:00",
+    "publisher": "Shutter Club",
+    "location": "Riverside Park",
+    "eventType": "Free",
+    "price": 0,
+    "currency": "INR",
+    "details": "Join photography enthusiasts of all levels for a scenic weekend walk designed to improve your skills and spark creativity. Guided by experienced photographers, this walk will cover beautiful natural spots along the riverside, teaching techniques on composition, lighting, and perspective. Attendees can ask questions, share tips, and capture stunning shots in an informal, supportive group setting. Bring your camera or smartphone and enjoy a morning of photography, fresh air, and camaraderie."
+  },
+  {
+    "name": "Live Jazz & Food Festival",
+    "image": "https://images.unsplash.com/photo-1505426101273-b50e6f3ff9a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGZlc3RpdmFsfGVufDB8fDB8fHww",
+    "date": "2025-10-26",
+    "time": "17:00",
+    "publisher": "City Arts Collective",
+    "location": "Central Square",
+    "eventType": "Paid",
+    "price": 699,
+    "currency": "INR",
+    "details": "Experience a magical evening filled with the sounds of live jazz and the aromas of delectable street food. The festival features local and international jazz bands performing in an open-air venue, creating a vibrant and festive atmosphere. Explore an array of food stalls offering a mix of local specialties and international flavors, perfect for music lovers and foodies alike. Bring your friends or family for an unforgettable night of entertainment, socializing, and culinary delights under the stars."
+  },
+  {
+    "name": "Yoga in the Park",
+    "image": "https://images.unsplash.com/photo-1569186273859-0a3cf0a68568?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYSUyMGluJTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D",
+    "date": "2025-10-27",
+    "time": "06:30",
+    "publisher": "Mind & Body Wellness",
+    "location": "Green Meadows Park",
+    "eventType": "Free",
+    "price": 0,
+    "currency": "INR",
+    "details": "Start your Sunday morning with an energizing and rejuvenating outdoor yoga session in the serene surroundings of Green Meadows Park. This session is suitable for both beginners and advanced practitioners and focuses on breathing exercises, gentle stretches, and mindfulness techniques to reduce stress and improve flexibility. Bring your own yoga mat and immerse yourself in a community of wellness enthusiasts while enjoying the fresh morning air. The session encourages relaxation, mental clarity, and overall well-being."
+  },
+  {
+    "name": "Blockchain & Web3 Meetup",
+    "image": "https://images.unsplash.com/photo-1640161704729-cbe966a08476?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2NrY2hhaW58ZW58MHx8MHx8fDA%3D",
+    "date": "2025-11-01",
+    "time": "18:00",
+    "publisher": "Crypto Connect",
+    "location": "Tech Hub Lounge",
+    "eventType": "Free",
+    "price": 0,
+    "currency": "INR",
+    "details": "Connect with blockchain enthusiasts, developers, and investors at this interactive meetup dedicated to the latest developments in Web3 and blockchain technologies. Learn about decentralized finance (DeFi), NFTs, smart contracts, and upcoming projects through engaging talks and presentations. Attendees will have the chance to network, ask questions, and explore collaboration opportunities with like-minded professionals. Light snacks and drinks will be provided, making it a perfect evening to discuss innovation, share ideas, and deepen your understanding of the rapidly evolving blockchain ecosystem."
+  }
+]
