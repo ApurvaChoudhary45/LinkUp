@@ -11,7 +11,7 @@ import Spinner from '@/components/Spinner';
 import Footer from '@/components/Footer';
 import ComponentNav from '@/components/ComponentNav';
 
-const moreEvent = () => {
+const MoreEvent = () => {
     const { user, isAuthenticated, isLoading } = useKindeAuth()
     const [loading, setloading] = useState(false)
     const [event, setevent] = useState([])
@@ -124,4 +124,4 @@ const moreEvent = () => {
     )
 }
 
-export default moreEvent
+export default MoreEvent
