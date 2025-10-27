@@ -52,7 +52,7 @@ const Welcome = () => {
                     <motion.div className='flex justify-end items-center gap-5 z-10' variants={container(1.2)} initial='initial' animate='animate'>
                         <LoginLink postLoginRedirectURL="/Userpage" className='bg-gray-700 text-white p-2 rounded-2xl cursor-pointer hover:scale-105 transition-all ease-in-out delay-75 font-mono'>Log In</LoginLink>
                         <LoginLink postLoginRedirectURL="/Userpage" className='cursor-pointer hover:scale-105 transition-all ease-in-out delay-75'>Sign Up</LoginLink>
-                        <LoginLink postLoginRedirectURL="/admin/Dashboard"  className='cursor-pointer hover:scale-105 transition-all ease-in-out delay-75'>Admin Portal</LoginLink>
+                        <LoginLink postLoginRedirectURL="/admin/Dashboard" className='cursor-pointer hover:scale-105 transition-all ease-in-out delay-75'>Admin Portal</LoginLink>
                     </motion.div>
                 </nav>
                 <div className='mt-10 relative z-10'>
@@ -61,10 +61,17 @@ const Welcome = () => {
                     </div>
                     <div className='flex justify-center items-center flex-col gap-10'>
                         <motion.h1 className='md:text-4xl font-mono font-extrabold text-xl text-center' variants={container(1.5)} initial='initial' animate='animate'>The community you’ve been looking for📢</motion.h1>
-                        <motion.p className='md:w-1/2 text-center text-2xl' variants={container(2)} initial='initial' animate='animate'>Where shared interests spark new friendships.
-                            Whether it’s photography, startups, or weekend adventures, you’ll always find people who get you.
-                            <span className='text-pink-400 font-bold'> Join in. LinkUp.</span></motion.p>
-                        <motion.button className='bg-gray-600 p-3 rounded-3xl text-white md:text-2xl cursor-pointer hover:bg-gray-500' variants={container(2.2)} initial='initial' animate='animate'>Let's Link Up</motion.button>
+                        <motion.p
+                            className='md:w-1/2 text-center text-2xl'
+                            variants={container(2)}
+                            initial='initial'
+                            animate='animate'
+                        >
+                            Where shared interests spark new friendships.{" "}
+                            {`Whether it’s photography, startups, or weekend adventures, you’ll always find people who get you.`}
+                            <span className='text-pink-400 font-bold'> Join in. LinkUp.</span>
+                        </motion.p>
+                        <LoginLink postLoginRedirectURL="/Userpage" className='bg-gray-600 p-3 rounded-3xl text-white md:text-2xl cursor-pointer hover:bg-gray-500' variants={container(2.2)} initial='initial' animate='animate'>Let's Link Up</LoginLink>
                     </div>
                     <section className="bg-gray-50 py-12 px-6 mt-10">
                         <div className="max-w-6xl mx-auto">
@@ -103,7 +110,7 @@ const Welcome = () => {
                             </motion.div>
                         </div>
                     </section>
-                    <motion.section className="bg-white py-16 px-6" whileInView={{opacity: 1, y:0}} initial={{opacity:0, y:-100}} transition={{duration: 1.5}}>
+                    <motion.section className="bg-white py-16 px-6" whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -100 }} transition={{ duration: 1.5 }}>
                         <div className="max-w-6xl mx-auto text-center">
                             <h2 className="text-3xl font-bold text-gray-900 mb-4">
                                 How <span className="text-indigo-600">LinkUp</span> Works
@@ -138,7 +145,7 @@ const Welcome = () => {
                             </div>
                         </div>
                     </motion.section>
-                    <motion.footer className="bg-gray-900 text-gray-300 py-12 px-6" whileInView={{opacity: 1, y:0}} initial={{opacity:0, y:100}} transition={{duration: 1.5}}>
+                    <motion.footer className="bg-gray-900 text-gray-300 py-12 px-6" whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 100 }} transition={{ duration: 1.5 }}>
                         <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-10">
                             {/* Brand */}
                             <div>
