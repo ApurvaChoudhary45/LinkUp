@@ -65,7 +65,7 @@ const MyEvent = () => {
             <div className='bg-gray-50'>
                 <div className="">
 
-                    <ComponentNav/>
+                    <ComponentNav />
                 </div>
 
             </div>
@@ -81,7 +81,16 @@ const MyEvent = () => {
 
             </motion.div>
             <div className='py-10'>
-                {loading ? <Spinner /> : (<div className='py-10 md:px-40 md:grid md:grid-cols-2 grid grid-cols-1 gap-10 px-10'>
+                {loading ? <Spinner /> : (event.length === 0 ? (<div className="flex flex-col items-center justify-center mt-20">
+                    <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 px-6 py-4 rounded-2xl border border-gray-200 shadow-sm">
+                        <p className="text-center text-gray-700 font-medium text-lg">
+                            No events joined yet
+                        </p>
+                    </div>
+                    <p className="text-sm text-gray-400 mt-2">
+                        Start by clicking <Link href='/moreEvents'><span className="font-semibold text-blue-600">"Explore Event”</span></Link>
+                    </p>
+                </div>) : (<div className='py-10 md:px-40 md:grid md:grid-cols-2 grid grid-cols-1 gap-10 px-10'>
                     {Array.isArray(event) && event?.map(item => {
                         return (
                             <div className="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300" key={item._id}>
@@ -127,7 +136,7 @@ const MyEvent = () => {
 
                         )
                     })}
-                </div>)}
+                </div>))}
             </div>
             <Footer />
 

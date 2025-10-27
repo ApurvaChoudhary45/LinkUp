@@ -8,16 +8,16 @@ import { Bell, MessageSquare, Calendar, Clock, User, HomeIcon } from "lucide-rea
 const Navbar = () => {
   const [profile, setprofile] = useState(false)
   const { user } = useKindeAuth()
-  const container = (delay) => ({
-    initial: { y: 0, opacity: 0 },
-    animate: {
-      y: 10, opacity: 1,
-      transition: {
-        duration: 0.5,
-        delay: delay
-      }
-    }
-  })
+  // const container = (delay) => ({
+  //   initial: { y: 0, opacity: 0 },
+  //   animate: {
+  //     y: 10, opacity: 1,
+  //     transition: {
+  //       duration: 0.5,
+  //       delay: delay
+  //     }
+  //   }
+  // })
   const isProfile = () => {
     setprofile(!profile)
   }
@@ -26,7 +26,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center md:px-20 py-3 sticky top-0 z-50">
 
         {/* Logo */}
-        <motion.img
+        <img
           src="/Logo.png"
           alt="logo"
           className="w-[150px] md:w-[200px]"
@@ -37,7 +37,7 @@ const Navbar = () => {
 
 
         {/* Center Search Bar */}
-        <motion.div
+        <div
           className="hidden md:flex flex-1 mx-10 gap-5"
           variants={container(1.1)}
           initial="initial"
@@ -51,12 +51,12 @@ const Navbar = () => {
             className="w-full px-4 py-2 rounded-2xl border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm"
           />
           <button className='p-2 bg-amber-300 rounded-2xl' onClick={getSearch}>Search</button>
-        </motion.div>
+        </div>
 
 
 
         {/* Right Side: Icons + Logout */}
-        <motion.div
+        <div
           className="flex items-center gap-5 z-10"
           variants={container(1.2)}
           initial="initial"
@@ -131,7 +131,7 @@ const Navbar = () => {
             Hi, {user?.given_name.replace(/"/g, "&quot;")}
           </span>
           
-        </motion.div>
+        </div>
       </nav>
     </div>
   )

@@ -114,7 +114,7 @@ useEffect(() => {
 
   return (
     <>
-    {isAuthenticated && cancreateticket ? <div className='bg-gray-50 '>
+    {isAuthenticated && cancreateticket  && <div className='bg-gray-50 '>
       <div className="">
 
         <nav className="flex justify-between items-center md:px-20 py-3 sticky top-0 z-50">
@@ -123,10 +123,11 @@ useEffect(() => {
           <motion.img
             src="/Logo.png"
             alt="logo"
-            className="w-[150px] md:w-[200px]"
+            className="w-[120px] md:w-[200px]"
             variants={container(1)}
             initial="initial"
             animate="animate"
+            
           />
 
 
@@ -163,11 +164,7 @@ useEffect(() => {
               <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
             </button>
 
-            {/* Message Icon */}
-            <button className="relative p-2 rounded-full hover:bg-gray-100 transition">
-              <MessageSquare className="w-6 h-6 text-gray-600" />
-            </button>
-
+            
             {/* Logout */}
             <div className="relative inline-block">
               {/* Profile Icon */}
@@ -223,7 +220,7 @@ useEffect(() => {
             </span>
             <LogoutLink
               postLogoutRedirectURL="/"
-              className="bg-gray-700 text-white px-4 py-2 rounded-2xl cursor-pointer hover:scale-105 transition-all ease-in-out delay-75 font-mono"
+              className="bg-gray-700 text-white md:px-4 md:py-2 rounded-2xl cursor-pointer hover:scale-105 transition-all ease-in-out delay-75 font-mono text-sm px-5 py-1"
             >
               Log Out
             </LogoutLink>
@@ -349,7 +346,7 @@ useEffect(() => {
         <Footer />
       </div>
 
-    </div> : <p>You do not have the right permissions</p>}
+    </div>}
     </>
   )
 }
